@@ -115,3 +115,5 @@ list.printlist()
 /* A diferença de uma lista e um array é que uma lista pode usar qualquer posição na 
 memória e linkar ela na lista, já o array ele vai usar posições específicas e em ordem 
 na memória*/
+
+//teste
