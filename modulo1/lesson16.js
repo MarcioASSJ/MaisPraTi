@@ -173,3 +173,5 @@ console.log("Tamanho da lista?", lista.getSize()) // Exibe o tamanho atual da li
 lista.clear() // Limpa a lista. 
 
 lista.print() // Imprime a lista após a limpeza.
+
+//teste mod 2
