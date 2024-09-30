@@ -1,19 +1,20 @@
-let livro={
-    titulo: "A Garota no Gelo",
-    autor: "Robert Bryndza",
-    anoPublicacao: 2016,
-    gereno: "Investigação"
-}
+let numEst =10
 
-let contEditora=0
-for(let chave in livro){
+if (numEst <= 0) {
+    console.log("Informe um número positivo maior que zero.")
+} else {
+    let i = numEst
 
-    if(chave === "editora"){
-        contEditora++
-    }
+    do {
+        let j = 0;
+        
+        while (j < i) {
+            console.log('*')
+            j++
+        }
+        
+        console.log()
+        i--
+
+    } while (i > 0)
 }
-    
-    if(contEditora===0){
-        livro.editora= "Gutenberg"
-    }
-    console.log(livro)
