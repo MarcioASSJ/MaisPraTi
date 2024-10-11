@@ -11,27 +11,29 @@
         <input type="text" class="display" disabled>
 
         <div class="botoes">
-            <button class="btn">7</button>
-            <button class="btn">8</button>
-            <button class="btn">9</button>
-            <button class="btn-operador">/</button>
+            <button class="btn" onclick="inserir(7)">7</button>
+            <button class="btn" onclick="inserir(8)">8</button>
+            <button class="btn" onclick="inserir(9)">9</button>
+            <button class="btn-operador" onclick="inserir('/')">/</button>
 
-            <button class="btn">4</button>
-            <button class="btn">5</button>
-            <button class="btn">6</button>
-            <button class="btn-operador">*</button>
+            <button class="btn" onclick="inserir(4)">4</button>
+            <button class="btn" onclick="inserir(5)">5</button>
+            <button class="btn" onclick="inserir(6)">6</button>
+            <button class="btn-operador" onclick="inserir('*')">*</button>
 
-            <button class="btn">1</button>
-            <button class="btn">2</button>
-            <button class="btn">3</button>
-            <button class="btn-operador">-</button>
+            <button class="btn" onclick="inserir(1)">1</button>
+            <button class="btn" onclick="inserir(2)">2</button>
+            <button class="btn" onclick="inserir(3)">3</button>
+            <button class="btn-operador" onclick="inserir('-')">-</button>
             
-            <button class="btn">0</button>
-            <button class="btn">.</button>
-            <button class="btn-operador">=</button>
-            <button class="btn-operador">+</button>
+            <button class="btn" onclick="inserir(0)">0</button>
+            <button class="btn" onclick="inserir('.')">.</button>
+            <button class="btn-operador" onclick="inserir('+')">=</button>
+            <button class="btn-operador" onclick="inserir('+')">+</button>
             
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
