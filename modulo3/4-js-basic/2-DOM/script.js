@@ -9,7 +9,7 @@ title.innerHTML = "Mudei o conteúdo do título novamente";
 // Altera o conteúdo HTML do elemento 'title' para "Mudei o conteúdo do título novamente"
 // innerHTML permite usar tags HTML dentro do conteúdo, diferente de textContent
 
-title.style.color = "blue";
+title.style.color = "green";
 // Altera a cor do texto do elemento 'title' para azul, manipulando o estilo CSS diretamente
 
 let button = document.getElementById('button');

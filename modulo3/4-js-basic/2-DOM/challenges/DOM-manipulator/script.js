@@ -10,14 +10,20 @@ let botaoRemoverItem = document.getElementById('removeItem')
 // Seleciona o elemento HTML com o ID 'lista' (uma lista não ordenada - ul) e o armazena na variável 'lista'
 let list = document.getElementById('list')
 
+let iten = document.getElementById('iten')
 /* Função responsável por adicionar um novo item à lista */
 function addItem() {
+
     // Cria um novo elemento 'li' (item da lista)
     let novoItem = document.createElement('li')
 
+    if(iten.value != ""){
+        novoItem.innerHTML = iten.value        
+    }else{
     // Define o conteúdo do novo item como "Item" seguido do número de itens na lista + 1
     novoItem.innerHTML = `Item ${list.children.length + 1}`
-    
+    }
+    iten.value=""
     // Adiciona o novo item ao final da lista de itens (dentro do elemento 'ul')
     list.appendChild(novoItem)
 
